@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <div class="jumbotron">
+        <p>Welcome to my very basic connect 4 page, the features are not all quite here yet, but for the most part is works!</p>
+        <p style="margin-top: 1em">
+            <a  href="{% url 'connect4_login' %}">Click here to login</a> or <a  href="{% url 'user_signup' %}">Sign up!</a>
+        </p>
+    </div>
+{% endblock content %}
